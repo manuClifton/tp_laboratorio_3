@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "LinkedList.h"
 #include "Employee.h"
 #include "parser.h"
@@ -93,6 +94,9 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     printf("Ingrese nombre: ");
     fflush(stdin);
     gets(auxNombre);
+    strlwr(auxNombre);
+    auxNombre[0] = toupper(auxNombre[0]);
+
 
     printf("Ingrese horas trabajadas: ");
     fflush(stdin);

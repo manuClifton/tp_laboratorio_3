@@ -63,9 +63,10 @@
 	"LinkedList.h"
 	"Employee.h"
 
-1561136188 source:c:\users\manu_\desktop\tp 3\controller.c
+1561396508 source:c:\users\manu_\desktop\tp 3\controller.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	"LinkedList.h"
 	"Employee.h"
 	"parser.h"
@@ -80,7 +81,7 @@
 	<string.h>
 	<ctype.h>
 
-1560619937 source:c:\users\manu_\desktop\tp 3\employee.c
+1561394922 source:c:\users\manu_\desktop\tp 3\employee.c
 	"Employee.h"
 	"stdlib.h"
 	<string.h>
@@ -95,7 +96,7 @@
 
 1560563749 c:\users\manu_\desktop\tp 3\controller.h
 
-1560563749 source:c:\users\manu_\desktop\tp 3\parser.c
+1561390870 source:c:\users\manu_\desktop\tp 3\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
